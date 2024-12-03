@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contato</title>
+</head>
+<header class="cabeçalho"> <!--cabeçalho-->
+    <nav class="menu"> <!--navegação-->
+        <ul>
+            <li><a href="index.html">Início</a></li> <!--Link-->
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="trabalho.html">trabalho</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div>
+        <h1 id="título">Entre em contato</h1>
+        <h3 id="subtítulo">Complete suas informações</h3>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required>
+                <br>
+            </div>
+        </fieldset>
+        <br>
+
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <br>
+        <div class="campo">
+            <label for="Estado"><strong>Estado</strong></label>
+            <select id="Estado">
+                <option selected disabled value="">Selecione uma opcão</option>
+                <option>Acre-AC</option>
+                <option>Alagoas-AL</option>
+                <option>Amapá-AP</option>
+                <option>Amazonas-AM</option>
+                <option>Bahia-BA</option>
+                <option>Ceará-CE</option>
+                <option>Distrito Federal-DF</option>
+                <option>Espírito Santo-ES</option>
+                <option>Goiás-GO</option>
+                <option>Maranhão-MA</option>
+                <option>Mato Grosso-MT</option>
+                <option>Mato Grosso do Sul-MS</option>
+                <option>Minas Gerais-MG</option>
+                <option>Pará-PA</option>
+                <option>Paraíba-PB</option>
+                <option>Paraná-PR</option>
+                <option>Pernambuco-PE</option>
+                <option>Piauí-PI</option>
+                <option>Rio de Janeiro-RJ</option>
+                <option>Rio Grande do Norte-RN</option>
+                <option>Rio Grande do Sul-RS</option>
+                <option>Rondônia-RO</option>
+                <option>Roraima-RR</option>
+                <option>Santa Catarina-SC</option>
+                <option>São Paulo-SP</option>
+                <option>Sergipe-SE</option>
+                <option>Tocantins-TO</option>
+            </select>
+        </div>
+        <br>
+        <div class="campo">
+            <label for="Endereço"><strong>Endereço</strong></label>
+            <input type="text" name="Endereço" id="Endereço">
+        </div>
+        <br>
+        <div class="campo">
+            <label for="Telefone"><strong>Telefone</strong></label>
+            <input type="text" name="Telefone" id="Telefone">
+        </div>
+    </form>
+</body>
+</html>
